@@ -47,7 +47,7 @@
             Editar
             </a>
 
-            <form action="{{ route('produtos.destroy', $produto->id) }}" method="POST" style="display:inline;">
+            <form action="{{ route('produtos.destroy', $produto->id) }}" method="POST";">
                 @csrf
                 @method('DELETE')
 

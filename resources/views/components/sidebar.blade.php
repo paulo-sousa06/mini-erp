@@ -13,13 +13,13 @@
             </li>
 
             <li>
-                <a href="#">
+                <a href="/produtos">
                     Produtos
                 </a>
             </li>
 
             <li>
-                <a href="#">
+                <a href="{{ route('clientes.index') }}">
                     Clientes
                 </a>
             </li>
